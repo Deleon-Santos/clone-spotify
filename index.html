@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone  Spotfy</title>
-    <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="src/assets/favicon.png" type="image/x-icon">
     
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="paginas.css">
+    <link rel="stylesheet" href="src/estilos/reset.css">
+    <link rel="stylesheet" href="src/estilos/root.css">
+    <link rel="stylesheet" href="src/estilos/paginas.css">
+    <link rel="stylesheet" href="src/estilos/main.css">
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -20,7 +22,7 @@
         <nav class="barra-lateral__navegacao">
             <div class="logo">
                 <a href="">
-                    <img src="src/logo-spotify.png" alt="logo-potfy">
+                    <img src="src/assets/logo-spotify.png" alt="logo-potfy">
                 </a>
             </div>
             <ul class="conteudo">
@@ -66,6 +68,29 @@
 
         </div>
    </div>
-
+   <main class="conteiner">
+        <nav class="cabeca">
+            
+            <div class="cabeca__navegacao">
+                <buton class="esquerda">
+                    <img src="src/assets/small-left.png" alt="" class="seta-esquerda">
+                    
+                </buton>
+                <buton class="direita">
+                    <img src="src/assets/small-right.png" alt="" class="seta-direita">
+                </buton>
+            </div>
+            
+            <div class="cabeca__buscar">
+                <img src="src/assets/search.png" alt="">
+                <input type="text" placeholder="O que voce quer ouvir hoje" maxlength="800" id="cabeca__input">
+            </div>
+            <div class="cabeca__logar">
+                <buton class="inscrever">Inscrever-se</buton>
+                <button class="entrar">Entrar</button>
+            </div>
+            
+        </nav>
+   </main>
 </body>
 </html>

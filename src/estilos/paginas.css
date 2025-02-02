@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    font-family: var(--DM-Sans)
 }
 .barra-lateral {
     position: fixed;
@@ -40,7 +41,6 @@ body{
     color: #b3b3b3;
     font-weight: 600;
     font-style: 14px;
-    font-family: 'dm-sans'sans-serif;
     text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ body{
     border: 0;
     font-size: 14px;
     font-weight: 700;
-    font-family: 'dm-sans'sans-serif;
+    
     text-decoration: none;
     text-transform: 0;
     padding: 20px 10px;
@@ -110,14 +110,12 @@ body{
 
 }
 .playlist .playlist__conteudo .text{
-    font-family: 'dm-sans'sans-serif;
+    
     padding-bottom: 14px;
     color: #fff;
     
 }
-.playlist .playlist__conteudo span{
-    font-family: 'dm-sans'sans-serif;
-}
+
 .playlist .playlist__conteudo .titulo{
     font-weight: 700;
 }
@@ -133,7 +131,7 @@ body{
     display: flex;
     justify-content: center;
     font-weight: 700;
-    font-family: 'dm-sans'sans-serif;
+    
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -169,4 +167,5 @@ body{
     width: 170px;
     margin: 8px;
     padding: 8px;
+    
 }
