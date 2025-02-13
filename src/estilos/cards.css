@@ -50,14 +50,7 @@
     grid-gap: 32px;
     margin: 0 auto;
 }
-.itens img {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: auto;
-    width: 107px;
-    transform: rotate(25deg) translate(18%, -2%);
-  }
+
   
 .cards{
     position: relative;
@@ -118,7 +111,14 @@
 .card15 {
   background: rgb(60, 30, 80);
 }
-
+.itens img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: 107px;
+  transform: rotate(25deg) translate(18%, -2%);
+}
 .artist {
   --column-count: 5;
   --grid-gap: 24px;
