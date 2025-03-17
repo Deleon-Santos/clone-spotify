@@ -1,18 +1,12 @@
-const searchInput = document.getElementById('cabeca-input');
+const searchInput = document.getElementById('input');
 const resultArtist = document.getElementById("result-artist");
-const resultPlaylist = document.getElementById('result-playlists');
+const resultPlaylist = document.getElementById('resultado-playlist');
 
-// function requestApi(searchTerm) {
-//     const url = `http://localhost:3000 api-artista?name_like=${searchTerm}`
-//     fetch(url)
-//         .then((response) => response.json())
-//         .then((result) => displayResults(result, searchTerm));
-// }
 function requestApi(searchTerm) {
     const url = `http://localhost:3000/artists?name_like=${searchTerm}`
     fetch(url)
         .then((response) => response.json())
-        .then((result) => displayResults(result))
+        .then((result) => displayResults(result, searchTerm));
 }
 
 function displayResults(result, searchTerm) {
@@ -45,7 +39,7 @@ function displayResults(result, searchTerm) {
   resultArtist.classList.remove('hidden');
 }
 
-document.addEventListener('cabeca-input', function () {
+document.addEventListener('input', function () {
     const searchTerm = searchInput.value.toLowerCase().trim();
 
     if (searchTerm === '') {
