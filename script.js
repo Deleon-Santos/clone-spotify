@@ -2,11 +2,17 @@ const searchInput = document.getElementById('cabeca-input');
 const resultArtist = document.getElementById("result-artist");
 const resultPlaylist = document.getElementById('result-playlists');
 
+// function requestApi(searchTerm) {
+//     const url = `http://localhost:3000 api-artista?name_like=${searchTerm}`
+//     fetch(url)
+//         .then((response) => response.json())
+//         .then((result) => displayResults(result, searchTerm));
+// }
 function requestApi(searchTerm) {
     const url = `http://localhost:3000/artists?name_like=${searchTerm}`
     fetch(url)
         .then((response) => response.json())
-        .then((result) => displayResults(result, searchTerm));
+        .then((result) => displayResults(result))
 }
 
 function displayResults(result, searchTerm) {
