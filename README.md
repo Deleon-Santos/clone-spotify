@@ -3,7 +3,7 @@
 
 # Clone Spotify
 
-Este projeto é uma réplica da interface web do Spotify e foi desenvolvido na imersão front-end da ALURA. Esta focado em recriar a experiência do usuário na navegação e visualização de playlists e artistas. O objetivo principal é demonstrar habilidades em desenvolvimento front-end e manipulação de dados, utilizando as principais tecnologias e práticas de desenvolvimento web.
+Este projeto é uma réplica da interface web do Spotify e foi desenvolvido na imersão front-end da ALURA. Esta focado em recriar a experiência do usuário na navegação e visualização de playlists e artistas. O objetivo principal é demonstrar habilidades em desenvolvimento front-end e manipulação de DOM, utilizando as principais tecnologias e práticas do desenvolvimento web.
 
 ## Tecnologias Utilizadas
 
@@ -39,7 +39,7 @@ Este projeto é uma réplica da interface web do Spotify e foi desenvolvido na i
 │   │   ├── artists.json
 ├── script.js
 ├── index.html
-├── package.json (se usar Node.js)
+├── package.json 
 ```
 
 ## Detalhamento das Tecnologias
@@ -78,7 +78,7 @@ Este projeto é uma réplica da interface web do Spotify e foi desenvolvido na i
 * Atualização de conteúdo: Modificação do conteúdo de elementos existentes para exibir informações de playlists e artistas.
 * Adição e remoção de classes: Utilização de `classList.add` e `classList.remove` para controlar a exibição de elementos e aplicar estilos dinamicamente.
 
-### Node.js (Opcional)
+### Node.js 
 
 * Servidor web: Criação de um servidor web simples com Node.js e Express para fornecer os arquivos JSON.
 * Rotas: Definição de rotas para servir os dados de playlists e artistas.
@@ -88,7 +88,7 @@ Este projeto é uma réplica da interface web do Spotify e foi desenvolvido na i
 
 Este projeto Clone Spotify é um excelente exercício para aprimorar suas habilidades em desenvolvimento front-end e manipulação de dados. Ao seguir esta documentação, você poderá entender melhor como as tecnologias se integram e como criar uma aplicação web interativa e responsiva.
 
-## Subir a API para um servidor 
+## Subir a API para um server local 
 
 ```json-server ./api-artists/artists.json```
 
